@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        h1{
+            text-align: center;
+           
+        }
+        label {
+            display: block;
+            margin: 0;
+            text-align: center;
+        }
+        input{
+            margin: 5px;
+        }
+        fieldset{
+            width: 50%;
+            margin: 0 auto;
+        }
+        p{
+            text-align: center;
+        }
+        body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-7RLYuxVfa4_kOIj5GdTQo4p3TZuO2hOa1A&s");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.welcome1{
+  font-style: italic;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: scroll 20s linear;
+ display:block;
+ width: 50%;
+ 
+
+}
+.welcome{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:block;
+    width:100%;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+
+  @keyframes scroll {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(300%);
+    }
+  }
+   
+    p,label{
+        font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Register Form</h1>
+    <div class="welcome">
+    <p class="welcome1">Welcome to Register Form</p>
+    </div>  
+    <p >Please do login </p>
+    <form action="menu1.html" method="get">
+    <fieldset>
+        <label>
+            Username: <input required type="text" id="name" name="name" placeholder="Name">
+            <br>
+            Password: <input required type="password" id="password" name="password" placeholder="Password">
+            <br>
+        <button type="submit">Login</button>
+        </label>
+    </fieldset>
+</body>
+</html>
